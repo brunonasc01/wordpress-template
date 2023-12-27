@@ -1,0 +1,31 @@
+.header {
+    color: #FFFFFF;
+    background-color: #0E2537;
+    padding: 20px 30px;
+    font-family: 'Open Sans', Verdana, sans-serif;
+}
+
+.header div {
+    display: inline-block;
+    width: 50%;
+}
+
+.header nav {
+    display: inline-block;
+}
+
+.header nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 18px;
+    /* background-color: orange; */
+}
+
+.header nav a:hover {
+    color: #F3221D;
+}
+
+.header nav ul li {
+    display: inline-block;
+}
