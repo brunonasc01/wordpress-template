@@ -1,6 +1,127 @@
-.footer {
+footer {
     color: #FFFFFF;
     background-color: #0E2537;
-    padding: 15px 30px;
+    padding: 55px 50px;
     font-family: 'Open Sans', Verdana, sans-serif;
+}
+
+footer .footer-left,
+footer .footer-center,
+footer .footer-right{
+  display: inline-block;
+  vertical-align: top;
+}
+
+footer ul.footer-links {
+    display: inline-block;
+    margin: 20px 0 12px;
+}
+
+footer ul.footer-links li {
+    display: inline-block;
+}
+
+footer ul.footer-links li a {
+    text-decoration: none;
+    color: inherit;
+    line-height: 1.8;
+    font-size: 14px;
+}
+
+footer ul.footer-links li a:before {
+    content: "|";
+    font-size: 20px;
+    padding-right: 5px;
+    display: inline-block;
+}
+
+footer ul.footer-links li a.first:before {
+    content: none;
+}
+
+footer h3 span {
+    color: #F3801D;
+}
+
+footer .footer-left {
+    width: 40%;
+}
+
+footer .footer-left h3 {
+    font-size: 24px;
+}
+
+footer .footer-left .footer-company-name {
+    font-size: 14px;
+    color: #777;
+}
+
+footer .footer-center {
+    width: 35%;
+}
+
+footer .footer-center p {
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+footer .footer-center p span {
+    display: block;
+    line-height: 2;
+}
+
+footer .footer-center a {
+    color: #F3801D;
+    text-decoration: none;
+}
+
+footer .footer-center i {
+    display: inline-block;
+    padding-bottom: 3px;
+    background-color:  #777;
+	color: #ffffff;
+	font-size: 22px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+footer .footer-right {
+    width: 20%;
+}
+
+footer .footer-right p.footer-company-about {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+footer .footer-right h5 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+footer .footer-right ul.social-icons {
+    margin-top: 25px;
+}
+
+footer .footer-right ul.social-icons li {
+    display: inline-block;
+}
+
+footer .footer-right ul.social-icons li a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    line-height: 1.8;
+    font-size: 20px;
+    width: 35px;
+    height: 36px;
+    background-color:  #777;
+    border-radius: 2px;
+    text-align: center;
 }
