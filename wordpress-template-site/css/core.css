@@ -1,0 +1,56 @@
+.main {
+    font-family: 'Open Sans', Verdana, sans-serif;
+}
+
+img.feature-image {
+    width: 100%;
+    max-height: 300px;
+}
+
+.main-content,
+.sidebar {
+    display: inline-block;
+}
+
+.main-content {
+    width: 70%;
+    background-color: yellow;
+}
+
+.post .post-content,
+.post .post-image {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.post .post-image {
+    width: 25%;
+    min-width: 230px;
+    max-height: 200px;
+    overflow: hidden;
+} 
+
+.news .post-image img{
+    width: 100%;
+    height: 100%;
+} 
+
+.post .post-content {
+    width: 75%;
+    padding: 15px;
+} 
+
+.post .post-content h2{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+} 
+
+.post .post-content p{
+    line-height: 1.5;
+} 
+
+.sidebar {
+    width: 30%;
+    background-color: orange;
+}
