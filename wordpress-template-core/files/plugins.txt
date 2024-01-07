@@ -1,0 +1,5 @@
+- Create Block Theme
+- Safe SVG
+- Simple CSS
+- Social Feed Gallery
+- Header Footer Code Manager (disabled)
